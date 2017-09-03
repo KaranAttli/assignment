@@ -1,0 +1,52 @@
+
+#header{
+    background-color: beige;
+    max-height:100px;
+    width : 100% ;
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+#header h1{
+    font-size: 30px;
+    font-family: Verdana;
+}
+
+#delete{
+    color : red;
+    text-decoration: line-through;
+}
+
+.list{
+    min-height: 100px;
+    max-height: 100px;
+    overflow: scroll;
+
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+#completehide {
+    float: right;
+    text-decoration: none;
+
+}
+
+#deletehide{
+    float: right;
+    text-decoration: none;
+}
+
+h2{
+    display: inline;
+}
+
+.show{
+    visibility: visible;
+}
+
+
+

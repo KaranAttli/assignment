@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Todo App</title>
+        <link href= "/styles/homepagestyle.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id ="header" >
+            <h1>My Todos</h1>
+        </div>
+        <div >
+            <h2>Active Todos</h2>
+
+        </div>
+        <div id="ActiveTodos" class="list"></div>
+        <hr>
+        <div >
+            <h2>Complete Todos</h2>
+            <a href="" id="completehide" onclick="makecompletehide()">Hide/Show Completed Items</a>
+        </div>
+        <hr>
+        <div id="CompleteTodos" class="list"></div>
+        <hr>
+        <div id="addnew">
+            <form id="form">
+                <input type="text" id='task' placeholder="Add New Todo" name = "task" required >
+                <button  type="submit" onclick="AddnewTodo()" >Add</button>
+
+            </form>
+
+        </div>
+
+        <hr>
+        <div>
+            <h2>Deleted Todo's</h2>
+            <a href="" id="deletehide" onclick="makedeletehide()">Hide/Show Completed Items</a>
+        </div>
+        <div id="delete" class="list">
+        </div>
+
+        <script src="/script/makecompletehide.js" type="text/javascript"></script>
+        <script src="/script/makedeletehide.js" type="text/javascript"></script>
+
+        <script src="/script/fetchDeleteList.js" type="text/javascript"></script>
+    <script src = '/script/deletetask.js' type="text/javascript"></script>
+    <script src="/script/AddnewTodo.js" type="text/javascript"></script>
+    <script src ='/script/changeStatusComplete.js' type="text/javascript"></script>
+    <script src ='/script/CompleteTodos.js' type="text/javascript"></script>
+        <script src="/script/homepage.js" type="text/javascript"></script>
+    </body>
+
+
+</html>
